@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+</head>
+<body ng-controller="TodoCtrl">
+<section>
+  <input type="text" ng-model="todo"><button ng-click="add()">Add</button>
+  <ul>
+    <li ng-repeat="todo in todos" ng-bind="todo"></li>
+  </ul>
+</section>
+<script src="../lib/Utils.js"></script>
+<script src="../lib/Scope.js"></script>
+<script src="../lib/Provider.js"></script>
+<script src="../lib/DOMCompiler.js"></script>
+<script src="../lib/directives/ng-click.js"></script>
+<script src="../lib/directives/ng-repeat.js"></script>
+<script src="../lib/directives/ng-controller.js"></script>
+<script src="../lib/directives/ng-bind.js"></script>
+<script src="../lib/directives/ng-model.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
