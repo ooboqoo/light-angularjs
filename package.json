@@ -1,0 +1,17 @@
+{
+  "name": "mini-angularjs",
+  "version": "v0.1.0",
+  "description": "AngularJS1.4.x 简化版，中文注释，方便学习框架内核原理",
+  "scripts": {
+    "start": "live-server --entry-file=index.html",
+    "build": "node ./scripts/build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ooboqoo/mini-angularjs.git"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "^1.2.0"
+  }
+}
